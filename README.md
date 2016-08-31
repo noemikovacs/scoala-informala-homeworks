@@ -1,1 +1,1 @@
-# scoala-informala-homeworks
+# Kovacs Noemi homeworks SIIT Java
