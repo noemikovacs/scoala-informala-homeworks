@@ -1,3 +1,6 @@
+/*In this class we declared the input distance variable (double type), like: mm, cm, dm, m, hm, k, in, ft, mi
+ * 
+ */
 package unitTests;
 
 public class Distance {

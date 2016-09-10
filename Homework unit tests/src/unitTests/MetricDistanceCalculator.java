@@ -1,3 +1,6 @@
+/*This class calculate the expression given to the chosen result type.
+ * 
+ */
 package unitTests;
 
 public class MetricDistanceCalculator {

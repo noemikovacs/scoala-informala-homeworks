@@ -1,3 +1,6 @@
+/* This class is responsible for converting the distance
+ * 
+ */
 package unitTests;
 
 public class MetricDistanceConverter {

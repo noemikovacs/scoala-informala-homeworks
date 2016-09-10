@@ -1,3 +1,8 @@
+/*
+ * Find all the + and - to know how many operands we have, then loose the whitespaces
+ * counting till the last operand
+ * check the endings to convert the distance
+ */
 package unitTests;
 
 public class MetricDistanceExpressionParser {
