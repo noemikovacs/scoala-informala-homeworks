@@ -70,8 +70,8 @@ public class MetricDistanceConverter {
 			new Convertion(Distance.MILES, Distance.CENTIMETERS, 160934.4 ),
 			new Convertion(Distance.MILES, Distance.DECIMETERS, 16093.4 ),
 			new Convertion(Distance.MILES, Distance.METERS, 1609 ),
-			new Convertion(Distance.MILES, Distance.HECTOMETERS, 160.93 ),
-			new Convertion(Distance.MILES, Distance.KILOMETERS,16.09 ),
+			new Convertion(Distance.MILES, Distance.HECTOMETERS, 16.093 ),
+			new Convertion(Distance.MILES, Distance.KILOMETERS,1.609 ),
 			new Convertion(Distance.MILES, Distance.INCHES, 63359.84),
 			new Convertion(Distance.MILES, Distance.FOOT, 5279.98),
 		};

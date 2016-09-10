@@ -55,8 +55,8 @@ public class MetricDistanceExpressionParser {
 			return convertToDistance(e, sign, Distance.DECIMETERS);
 		} else if (e.endsWith(Distance.CENTIMETERS)){
 			return convertToDistance(e, sign, Distance.CENTIMETERS);
-		} else if (e.endsWith(Distance.METERS)){
-			return convertToDistance(e, sign, Distance.METERS);
+		}else if (e.endsWith(Distance.KILOMETERS)){
+			return convertToDistance(e, sign, Distance.KILOMETERS); 
 		} else if (e.endsWith(Distance.HECTOMETERS)){
 			return convertToDistance(e, sign, Distance.HECTOMETERS);
 		} else if (e.endsWith(Distance.INCHES)){
@@ -65,8 +65,9 @@ public class MetricDistanceExpressionParser {
 			return convertToDistance(e, sign, Distance.FOOT);
 		} else if (e.endsWith(Distance.MILES)) {
 			return convertToDistance(e, sign, Distance.MILES);
-		}	
-	
+		}else if (e.endsWith(Distance.METERS)){
+			return convertToDistance(e, sign, Distance.METERS);
+		}
 		throw new UnknownDistanceFormatException("Can not parse [" + e + "] as a valid distance.");
 	}
 	
