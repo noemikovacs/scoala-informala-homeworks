@@ -1,0 +1,5 @@
+Michael Douglas|Senior Sales Officer|160|0|5|10
+Jennifer Lawrence|Sales Officer|84|10|10|0
+Kurt Douglas|Sales Officer|160|2|5|5
+George Washington|Sales Manager|80|0||
+George Washington|Sales Manager|80|0||
